@@ -1,0 +1,21 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.container{
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logOut{
+    border: 1px solid #ffc107;
+}
+
+h1{
+    color: #17a2b8;
+}

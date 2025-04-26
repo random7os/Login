@@ -52,7 +52,7 @@ function signIn() {
     for (var index = 0; index <= info.length; index++) {
         if (signinEmail.value == info[index].uEmail && signinPass.value == info[index].uPass) {
             localStorage.setItem('username', info[index].uName)
-            window.location.replace("../home.html");
+            window.location.replace("/home.html");
         }
         
         else if (signinEmail.value == "" || signinPass.value == "") {
